@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>re4ma test</title>
+  <title>{{TITLE}}</title>
+  <base href="{{BASE}}">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" type="module"></script>
 </head>
 <body>
-  <h1>HELLO</h1>
-  {{CONTENT}}
+  <re-htm src="htm/layout.htm">
+    {{CONTENT}}
+  </re-htm>
 </body>
 </html>

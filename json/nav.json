@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Home",
+    "href": "./"
+  },
+  {
+    "text": "About",
+    "href": "sections/about.html"
+  },
+  {
+    "text": "Links",
+    "href": "sections/links.html"
+  }
+]
