@@ -1,0 +1,6 @@
+{
+  "localPort": 3000,
+  "entry": "index.html",
+  "output": "./dist",
+  "sitemap": true
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <base href="../">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22.15em%22 y=%22.85em%22 fill=%22%23f0f%22 font-size=%22100%22>R</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" type="module"></script>
+</head>
+<body>
+  <div class="column">
+  <header>
+  
+<div re-variant="A" hidden="" style="display: contents;">
+  <div>HEADER A</div>
+</div>
+<div re-variant="B" hidden="" style="display: none;">
+  <div>Header B</div>
+</div>
+
+</header>
+  <main>
+    <h2 id="links">Links</h2>
+
+  </main>
+  <footer>FOOTER</footer>
+</div>
+<nav>
+  <a href="./">Home</a><a href="sections/about.html">About</a><a href="sections/links.html">Links</a>
+</nav>
+
+
+
+
+<script type="module">
+  function releaseAB() {
+  let currentVariant = Math.random() > 0.5 ? 'A' : 'B';
+  [...document.querySelectorAll('[re-variant]')].forEach((el) => {
+    if (el.getAttribute('re-variant') === currentVariant) {
+      // @ts-ignore
+      el.style.display = 'contents';
+    } else {
+      // @ts-ignore
+      el.style.display = 'none';
+    }
+  });
+};
+  releaseAB();
+</script>
+</body></html>
