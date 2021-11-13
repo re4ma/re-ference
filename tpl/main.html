@@ -11,7 +11,9 @@
   <script src="js/app.js" type="module"></script>
 </head>
 <body>
-  <re-htm src="htm/layout.htm">
+  <re-htm 
+    --nav-current="{{NAV-CURRENT}}"
+    src="htm/layout.htm">
     {{CONTENT}}
   </re-htm>
 </body>

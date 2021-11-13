@@ -1,14 +1,17 @@
 [
   {
     "text": "Home",
-    "href": "./"
+    "href": "./",
+    "nav": "home"
   },
   {
     "text": "About",
-    "href": "sections/about.html"
+    "href": "sections/about.html",
+    "nav": "about"
   },
   {
     "text": "Links",
-    "href": "sections/links.html"
+    "href": "sections/links.html",
+    "nav": "links"
   }
 ]
