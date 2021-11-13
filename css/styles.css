@@ -38,6 +38,10 @@ nav {
   left: var(--gap-max);
 }
 
+a {
+  color: currentColor;
+}
+
 nav > a {
   color: var(--clr-2);
   text-decoration: none;
